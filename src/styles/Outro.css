@@ -10,7 +10,7 @@
 .outro-text {
     text-align: center;
     font-weight: 200;
-    font-size: 300%;
+    font-size: 2vw;
 }
 
 .outro-button {
@@ -38,7 +38,7 @@
 
 .button-container {
     position: absolute;
-    bottom: 50px;
-    right: 50px;
+    bottom: 5vw;
+    right: 5vw;
     display: flex;
 }

@@ -2,11 +2,17 @@
     height: 100%;
     width: 100%;
     background-image: url('./../assets/street.svg');
-    background-size: contain;
+    background-size: 50% 100%;
     background-repeat: no-repeat;
     background-position: top left;
     background-color: #FFF59D;
     font-size: 3vw;
+}
+
+.hover {
+    position: absolute;
+    width: 5%;
+    height: 5%;
 }
 
 .hover-garden {
@@ -59,7 +65,7 @@
 
 .button-container {
     position: absolute;
-    bottom: 50px;
-    right: 50px;
+    bottom: 5vw;
+    right: 5vw;
     display: flex;
 }
