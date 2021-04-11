@@ -2,11 +2,14 @@
     position: relative;
     height: 100%;
     width: 100%;
-    background-image: url('./../assets/superblock.svg');
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
     background-color: #FFF59D;
     font-size: 2vw;
+}
+
+.img-wrapper {
+    position: relative;
+    width: 50%;
+    height: auto;
 }
 
 .header-text {
@@ -32,32 +35,32 @@
     position: absolute;
     width: 5%;
     height: 5%;
-    top: 40%;
-    left: 27.5%;
+    top: 70%;
+    left: 57%;
 }
 
 .hover-outer-road {
     position: absolute;
     width: 5%;
     height: 5%;
-    top: 78%;
-    left: 15%;
+    top: 80%;
+    left: 13%;
 }
 
 .hover-bus {
     position: absolute;
     width: 5%;
     height: 5%;
-    top: 30%;
-    left: 38%;
+    top: 40%;
+    left: 78%;
 }
 
 .hover-housing {
     position: absolute;
     width: 5%;
     height: 5%;
-    top: 25%;
-    left: 15%;
+    top: 28%;
+    left: 26%;
 }
 
 .button-container {

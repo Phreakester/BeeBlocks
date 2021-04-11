@@ -1,10 +1,6 @@
 .main-street {
     height: 100%;
     width: 100%;
-    background-image: url('./../assets/street.svg');
-    background-size: 50% 100%;
-    background-repeat: no-repeat;
-    background-position: top left;
     background-color: #FFF59D;
     font-size: 3vw;
 }
@@ -18,7 +14,7 @@
 .hover-garden {
     position: absolute;
     top: 70%;
-    left: 43%;
+    left: 85%;
 }
 
 .hover-sidewalk {
@@ -30,19 +26,19 @@
 .hover-bee {
     position: absolute;
     top: 38%;
-    left: 6%;
+    left: 14%;
 }
 
 .hover-market {
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 90%;
 }
 
 .hover-shade {
     position: absolute;
-    top: 40%;
-    left: 20%;
+    top: 35%;
+    left: 35%;
 }
 
 .header-text {
