@@ -1,3 +1,13 @@
+.main-street {
+    height: 100%;
+    width: 100%;
+    background-image: url('./../assets/street.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: #FFF59D;
+}
+
 .button-container {
     position: absolute;
     bottom: 50px;
