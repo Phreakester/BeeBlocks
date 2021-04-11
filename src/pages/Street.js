@@ -20,7 +20,8 @@ function Street(props) {
     const [currentText, setCurrentText] = useState(default_text);
     return(
         <div className='main-street'>
-            <div className="infro-text">{currentText}</div>
+            <div className='header-text'><b>Hello</b></div>
+            <div className="info-text">{currentText}</div>
             <Hoverable src={red_triangle} className='hover-garden' setCurrentText={setCurrentText} text={garden_text} defaultText={default_text} />
             <Hoverable src={red_triangle} className='hover-sidewalk' setCurrentText={setCurrentText} text={sidewalk_text} defaultText={default_text} />
             <Hoverable src={red_triangle} className='hover-bee' setCurrentText={setCurrentText} text={bee_text} defaultText={default_text} />

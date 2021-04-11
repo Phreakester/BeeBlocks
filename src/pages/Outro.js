@@ -7,11 +7,11 @@ import BckButton from '../shared/BckButton.js';
 function Outro(props) {
     return(
         <div className="main-outro">
-            <div className="outro-text">Bleh Belh thanks for watching</div>
-            <a className='outro-button' href='https://www.youtube.com/watch?v=ZORzsubQA_M'>Learn more about superblocks</a>
-            <a className='outro-button'>Learn more about bees</a>
-            <a className='outro-button'>View our presentation Deck to gain insight as to our creative process</a>
-            <a className='outro-button' href='https://github.com/Phreakester/beeblocks'>View our website source code on GitHub</a>
+            <div className="outro-text">Bee Blocks: Because we BEElieve in making the world a better place</div>
+            <a className='outro-button' target="_blank" href='https://www.youtube.com/watch?v=ZORzsubQA_M'>Learn more about superblocks</a>
+            <a className='outro-button' target="_blank" href='https://www.youtube.com/watch?v=SyPjwxHxbus'>Learn more about bees</a>
+            <a className='outro-button' target="_blank" href='https://docs.google.com/presentation/d/1yOINC_jJQQV65akMZLFP2bwIvDO9V3kMZJLUqs0RL-0/edit?usp=sharing'>View our presentation Deck to gain insight as to our creative process</a>
+            <a className='outro-button' target="_blank" href='https://github.com/Phreakester/beeblocks'>View our website source code on GitHub</a>
             
             <div className="button-container">
                 <BckButton destination={props.prevPath} />
