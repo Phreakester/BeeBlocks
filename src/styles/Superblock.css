@@ -15,7 +15,7 @@
 .header-text {
     position: absolute;
     left: 60%;
-    top: 10%;
+    top: 8vw;
     width: 40%;
     height: auto;
     font-size: 3vw;
@@ -26,7 +26,7 @@
     left: 60%;
     top: 40%;
     width: 4vw;
-    height: 2vw;
+    height: 18vw;
     font-size: 1vw;
 }
 
