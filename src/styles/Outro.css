@@ -1,16 +1,24 @@
+.outrowrapper{
+    background-color: #FFF59D;
+    height:100%;
+}
 .main-outro {
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #FFF59D;
-    align-items: center;
+    align-items: flex-start;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 5vw;
+
 }
 
 .outro-text {
-    text-align: center;
+    text-align: left;
     font-weight: 200;
-    font-size: 2vw;
+    font-size: 3vw;
+    padding-bottom: 1vw;
+    margin-left: 1vw;
 }
 
 .outro-button {
@@ -23,7 +31,7 @@
     margin: 10px;
     cursor: pointer;
     border-radius: 15px;
-    font-size: 150%;
+    font-size: 3vw;
     transition: 0.5s;
     text-decoration: none;
 }

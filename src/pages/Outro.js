@@ -6,6 +6,7 @@ import BckButton from '../shared/BckButton.js';
 
 function Outro(props) {
     return(
+        <div className="outrowrapper">
         <div className="main-outro">
             <div className="outro-text">Thank you for taking the time to learn about Bee Blocks!</div>
             <a className='outro-button' target="_blank" href='https://www.youtube.com/watch?v=ZORzsubQA_M'>Learn more about superblocks</a>
@@ -17,6 +18,7 @@ function Outro(props) {
                 <BckButton destination={props.prevPath} />
                 {props.nextPath && <FwdButton destination={props.nextPath} />}
             </div>
+        </div> 
         </div>
     );
 }
