@@ -14,7 +14,11 @@ function Home() {
     return(
         <div className="home-main">
             
-            <div className = "wrapper"> <img src={lacoast} className="background" /> </div>
+            <div className = "wrapper"> 
+            <div className = "wrapper2"/>
+            <img src={lacoast} className="background" /> 
+            </div>
+            
             <div className="home-title"><p>Bee Blocks</p></div>
             <div className="home-explanation-text">
             In general, Superblocks are a new way to structure housing and commerce in cities that reclaims space for the public in densely populated areas. Smaller streets are repurposed from driving lanes to community spaces. 
