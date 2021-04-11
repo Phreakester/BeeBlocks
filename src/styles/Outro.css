@@ -1,3 +1,41 @@
+.main-outro {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF59D;
+    align-items: center;
+}
+
+.outro-text {
+    text-align: center;
+    font-weight: 200;
+    font-size: 300%;
+}
+
+.outro-button {
+    font-weight: 300;
+    font-family: 'Source Code Pro', monospace;
+    border: solid #310F0F 5px;
+    background-color: #310F0F;
+    color: #FFF59D;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 150%;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.outro-button:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.outro-button:visited {
+    text-decoration: none;
+}
+
 .button-container {
     position: absolute;
     bottom: 50px;
