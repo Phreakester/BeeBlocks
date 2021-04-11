@@ -1,3 +1,4 @@
+import React from 'react';
 import {
     BrowserRouter as Router,
     Link
@@ -6,11 +7,14 @@ import {
 import './../styles/Home.css'
 import './../styles/index.css'
 
-import triangle from './../assets/triangle.svg';
+import triangle from './../assets/triangle.svg'
+import lacoast from './../assets/lacoast.svg'
 
 function Home() {
     return(
         <div className="home-main">
+            
+            <div className = "wrapper"> <img src={lacoast} className="background" /> </div>
             <div className="home-title"><p>Bee Blocks</p></div>
             <div className="home-explanation-text">
             In general, Superblocks are a new way to structure housing and commerce in cities that reclaims space for the public in densely populated areas. Smaller streets are repurposed from driving lanes to community spaces. 
