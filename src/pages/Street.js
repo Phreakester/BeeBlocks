@@ -10,17 +10,17 @@ import red_triangle from './../assets/red_triangle.svg';
 
 const garden_text = 'The gardens bring much needed green spaces to urban living, increasing the quality of life for the residents. Native plants would be the focus of these gardens, as these species have been displaced by the city.';
 const sidewalk_text = 'The streets are converted to widened sidewalks, allowing for pedestrians to walk to their local shops instead of driving there and reducing traffic flow in the area. Also, added bike lanes encourage biking as an alternative to driving. The lack of cars in this area creates increased safety for pedestrian and biking commuters. Air and noise pollution will see a marked decrease as well.';
-const bee_text = 'It is well known that the increase of urban sprawl has decreased the bee population significantly due to the lack of green spaces. This issue is our inspiration for the name of this project, as one small part of the BeeBlock system would be a BeeBox on one of the roofs of the complex. This BeeBox would bring the bees back to the cities and to these communities to foster the growth of the native plant species.';
+const bee_text = 'It is well known that the increase of urban sprawl has decreased the bee population significantly due to the lack of green spaces. This BeeBox would bring the bees back to the cities and to these communities to foster the growth of the native plant species.';
 const market_text = 'Markets and everyday essentials will be located within these BeeBlocks. Biking and walking will be viable options to reach these destinations, reducing the need for cars thus improving air quality.';
 const shade_text = 'A projected increase in global temperature will require new methods of cooling down the city. A shaded canopy over a part of the complex would reduce the solar impact on city temperatures and improve walkability for pedestrians within the BeeBlocks.';
 
-const default_text = 'This is the default text'
+const default_text = 'Hover over an arrow to learn more about the advantages of living inside of a super block!'
 
 function Street(props) {
     const [currentText, setCurrentText] = useState(default_text);
     return(
         <div className='main-street'>
-            <div className='header-text'><b>Hello</b></div>
+            <div className='header-text'><b>A nice stroll through your superblock</b></div>
             <div className="info-text">{currentText}</div>
             <Hoverable src={red_triangle} className='hover-garden' setCurrentText={setCurrentText} text={garden_text} defaultText={default_text} />
             <Hoverable src={red_triangle} className='hover-sidewalk' setCurrentText={setCurrentText} text={sidewalk_text} defaultText={default_text} />

@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
 import ReactDOM from 'react-dom';
 
@@ -31,6 +32,9 @@ ReactDOM.render(
         </Route>
         <Route path="/">
           <Home />
+        </Route>
+        <Route>
+          <Redirect to="/" />
         </Route>
       </Switch>
     </Router>
