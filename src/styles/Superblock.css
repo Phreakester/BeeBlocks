@@ -1,0 +1,7 @@
+.main-superblock {
+    height: 100%;
+    width: 100%;
+    background-image: url('./../assets/superblock.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
