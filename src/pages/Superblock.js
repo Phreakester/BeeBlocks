@@ -27,7 +27,7 @@ function Superblock(props) {
                 <Hoverable src={red_triangle} className='hover-housing' setCurrentText={setCurrentText} text={housing_text} defaultText={default_text} />
                 <img className="super_image" src={super_image}/>
             </div>
-            <div className='header-text'><b>Welcome to your new BeeBlock!</b></div>
+            <div className='header-text'>Welcome to your new BeeBlock!</div>
             <div className="info-text">{currentText}</div>
             
             <div className="button-container">

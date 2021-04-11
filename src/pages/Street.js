@@ -29,7 +29,7 @@ function Street(props) {
                 <Hoverable src={red_triangle} className='hover hover-shade' setCurrentText={setCurrentText} text={shade_text} defaultText={default_text} />
                 <img className="street_image" src={street_image}/>
             </div>
-            <div className='header-text'><b>A nice stroll through your BeeBlock</b></div>
+            <div className='header-text'>A nice stroll through your BeeBlock</div>
             <div className="info-text">{currentText}</div>
             
             <div className="button-container">

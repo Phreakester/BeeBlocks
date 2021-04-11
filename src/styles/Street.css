@@ -20,7 +20,7 @@
 .hover-sidewalk {
     position: absolute;
     top: 85%;
-    left: 4%;
+    left: 26%;
 }
 
 .hover-bee {
@@ -56,7 +56,6 @@
     top: 40%;
     width: 35vw;
     font-size: 1.5vw;
-    transition: 0.4s;
 }
 
 .button-container {
