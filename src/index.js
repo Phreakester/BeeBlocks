@@ -7,10 +7,11 @@ import {
 } from "react-router-dom";
 import ReactDOM from 'react-dom';
 
-import './index.css';
+import './styles/index.css';
 
-import App from './App';
 import Home from './pages/Home.js'
+import Superblock from './pages/Superblock.js'
+import Street from './pages/Street.js'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -18,6 +19,12 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
+        <Route path="/superblock">
+          <Superblock />
+        </Route>
+        <Route path="/street">
+          <Street />
+        </Route>
         <Route path="/">
           <Home />
         </Route>
