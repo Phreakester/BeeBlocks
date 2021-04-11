@@ -1,0 +1,41 @@
+.home-main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url('./../assets/LASataliteView.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #FFF59D;
+}
+
+.home-title {
+    position: absolute;
+    top: 25%;
+    left: 4.5%;
+    font-size: 700%;
+}
+
+.home-explanation-text {
+    width: 20%;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    font-size: 150%;
+}
+
+.superblock-btn {
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    transform: scale(1.5,1.5);
+    transition: 0.4s;
+}
+
+.superblock-btn:hover {
+    transform: scale(2,2);
+}
+
+.triangle-btn {
+    size: 200%;
+}
