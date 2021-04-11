@@ -2,6 +2,28 @@
     height: 100%;
     width: 100%;
     background-image: url('./../assets/superblock.svg');
-    background-repeat: no-repeat;
     background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-color: #FFF59D;
+}
+
+.info-text {
+    position: absolute;
+    left: 55.5%;
+    top: 40%;
+    width: 20%;
+}
+
+.hover-grocer {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.button-container {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
 }

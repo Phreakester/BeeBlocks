@@ -12,6 +12,7 @@ import './styles/index.css';
 import Home from './pages/Home.js'
 import Superblock from './pages/Superblock.js'
 import Street from './pages/Street.js'
+import Outro from './pages/Outro.js'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -20,10 +21,13 @@ ReactDOM.render(
     <Router>
       <Switch>
         <Route path="/superblock">
-          <Superblock />
+          <Superblock nextPath='/street' prevPath='/' />
         </Route>
         <Route path="/street">
-          <Street />
+          <Street nextPath='/outro' prevPath='/superblock' />
+        </Route>
+        <Route path="/outro">
+          <Outro prevPath='/street'/>
         </Route>
         <Route path="/">
           <Home />

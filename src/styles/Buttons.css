@@ -1,0 +1,24 @@
+.control-button {
+    transition: 0.4s;
+    height: 150px;
+    width: 125px;
+    cursor: pointer;
+}
+
+.control-button:hover {
+    transform: scale(1.5, 1.5);
+}
+
+.forward {
+    background-image: url('./../assets/next_triangle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 80%;
+}
+
+.back {
+    background-image: url('./../assets/prev_triangle.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 80%;
+}
