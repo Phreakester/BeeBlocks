@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/beeblocks/static/css/main.028923ce.chunk.css",
+    "main.js": "/beeblocks/static/js/main.3053936b.chunk.js",
+    "main.js.map": "/beeblocks/static/js/main.3053936b.chunk.js.map",
+    "runtime-main.js": "/beeblocks/static/js/runtime-main.e2361381.js",
+    "runtime-main.js.map": "/beeblocks/static/js/runtime-main.e2361381.js.map",
+    "static/js/2.6c09acff.chunk.js": "/beeblocks/static/js/2.6c09acff.chunk.js",
+    "static/js/2.6c09acff.chunk.js.map": "/beeblocks/static/js/2.6c09acff.chunk.js.map",
+    "static/js/3.70988a67.chunk.js": "/beeblocks/static/js/3.70988a67.chunk.js",
+    "static/js/3.70988a67.chunk.js.map": "/beeblocks/static/js/3.70988a67.chunk.js.map",
+    "index.html": "/beeblocks/index.html",
+    "static/css/main.028923ce.chunk.css.map": "/beeblocks/static/css/main.028923ce.chunk.css.map",
+    "static/js/2.6c09acff.chunk.js.LICENSE.txt": "/beeblocks/static/js/2.6c09acff.chunk.js.LICENSE.txt",
+    "static/media/lacoast.63540797.svg": "/beeblocks/static/media/lacoast.63540797.svg",
+    "static/media/Buttons.css": "/beeblocks/static/media/prev_triangle.bda0e73a.svg",
+    "static/media/red_triangle.93f4d952.svg": "/beeblocks/static/media/red_triangle.93f4d952.svg",
+    "static/media/street.2db01d60.svg": "/beeblocks/static/media/street.2db01d60.svg",
+    "static/media/superblock.fda66f25.svg": "/beeblocks/static/media/superblock.fda66f25.svg",
+    "static/media/triangle.adbf202e.svg": "/beeblocks/static/media/triangle.adbf202e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2361381.js",
+    "static/js/2.6c09acff.chunk.js",
+    "static/css/main.028923ce.chunk.css",
+    "static/js/main.3053936b.chunk.js"
+  ]
+}
